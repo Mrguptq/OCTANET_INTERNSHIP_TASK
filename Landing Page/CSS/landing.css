@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url("../Images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg") no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.menu a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: whitesmoke;
+}
+
+/* .menu a::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.5s linear;
+} */
+
+.register a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  background: indianred;
+  border-radius: 20px;
+}
+
+.register a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+
+.header-text {
+  max-width: 650px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.header-text a:hover {
+    background: transparent;
+    border: 1px solid indianred;
+ 
+}
+
+.header-text span {
+  letter-spacing: 5px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.header-text h1 {
+  font-size: 3.5rem;
+}
+
+.header-text a {
+  text-decoration: none;
+  background: indianred;
+  color: whitesmoke;
+  padding: 10px 20px;
+  letter-spacing: 5px;
+}
